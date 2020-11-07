@@ -1,0 +1,10 @@
+{
+    "name": "Simplify",
+    "version": "1.0",
+    "description": "We're making a Text Summarizer",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "highlighter.png"
+    }
+}
