@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description": "Simplify",
   "browser_action": {
-    "default_popup": "index.html"
+    "default_popup": "popup.html"
   }, 
   "content_security_policy": "script-src 'self' 'sha256-PIyb3PnRPKdQ/zZ3eNZVMh2iKFwxlu1BZA4FGs7FPpw='"
 
