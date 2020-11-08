@@ -1,0 +1,9 @@
+{
+  "name": "Simplify",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Simplify",
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
