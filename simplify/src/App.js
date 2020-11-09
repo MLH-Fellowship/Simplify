@@ -11,9 +11,9 @@ function App() {
 
   useEffect(() => {
     console.log("hi");
-    window.postMessage({ type: "GET_URL" }, "*");
+    window.postMessage({ type: "tabdata" }, "*");
 
-    window.addEventListener("tabdata", function (event) {
+    window.addEventListener("URL_RESULT", function (event) {
       console.log("ehy", event.data.url);
       setUrl(event.data.url)
     });
