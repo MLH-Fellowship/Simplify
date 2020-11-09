@@ -15,8 +15,9 @@ function App() {
 
     window.addEventListener("tabdata", function (event) {
       console.log("ehy", event.data.url);
+      setUrl(event.data.url)
     });
-  });
+  },[]);
 
   return (
     <div className="App">

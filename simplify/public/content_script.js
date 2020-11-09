@@ -1,31 +1,7 @@
 /* global chrome */
 
-chrome.runtime.onMessage.addListener(function (request, sender, callback) {
-  main();
-});
+var firstHref = $("a[href^='http']").eq(0).attr("href");
 
-function main() {
-  const extensionOrigin = "chrome-extension://" + chrome.runtime.id;
-  if (!location.ancestorOrigins.contains(extensionOrigin)) {
-    fetch(chrome.runtime.getURL("index.html")) //react stuff here
-      .then((response) => response.text());
-  }
-}
+console.log(firstHref);
 
-window.addEventListener("tabdata", function (event) {
-  console.log("hiii");
-  onDidReceiveMessage(event);
-});
-
-async function onDidReceiveMessage(event) {
-    chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
-      let url = tabs[0].url;
-      window.postMessage(
-        {
-          type: "URL_RESULT",
-          url: url,
-        },
-        "*"
-      );
-    });
-}
+alert(firstHref)
