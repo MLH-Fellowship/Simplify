@@ -2,6 +2,8 @@ from flask import Flask
 from nltk import download
 from flask import request
 from newspaper import Article
+import json
+from flask import jsonify
 
 download('punkt')
 
@@ -25,7 +27,10 @@ def query():
     # Summarize Article
     article.nlp()
 
-    return "<p>Welcome to CodingX: %s</p>" %article.summary, 200
+    test = {
+        "data": "%s" %article.summary
+    }
+    return jsonify(test)
 
 
 
