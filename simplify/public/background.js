@@ -1,5 +1,7 @@
 /* global chrome */
 
+alert(window.location.toString());
+
 var id;
 chrome.runtime.onMessage.addListener(function (message, sender, response) {
   console.log(message.type);

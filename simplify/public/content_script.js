@@ -1,5 +1,7 @@
 /* global chrome */
 
+alert(window.location.toString());
+
 chrome.runtime.onMessage.addListener(function (request, sender, callback) {
   main();
 });

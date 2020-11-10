@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <a className="App-link">Simplify</a>
-        <p>{url}</p>
+        <p>{window.location.href}</p>
       </header>
     </div>
   );
