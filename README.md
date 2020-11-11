@@ -3,7 +3,7 @@
 <p align="center">
      Simplify is a Chrome Extension that summarizes any article you're reading in just one click! 
      <br/>
-     The Chrome Extension calls on an API that was made and deployed on Herkou to get the summary of the article.
+     It calls on an API that was made and deployed on Herkou to get the summary of the article.
 </p>
 
 
