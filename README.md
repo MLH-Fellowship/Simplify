@@ -76,6 +76,8 @@ The Developers couldn't get this on the Chrome Extension Store, so here are the 
 
 ## API Reference
 
+URL: https://summary-api-zzranger.herokuapp.com/
+
 ##### Endpoint
 
 `GET` https://summary-api-zzranger.herokuapp.com/query?article=`{articleUrl}`
@@ -118,7 +120,9 @@ curl -I -X GET "https://summary-api-zzranger.herokuapp.com/query?article=https:/
 
 > Summary of the article located at `articleUrl`
 
+## Other
 
+Devpost Submission: https://devpost.com/software/simplify-cvn8mg
 
 ## Made with ❤️ by Pod 1.1.6 - the Git Geese:
 |                       Cirill Dalangin                        |                         Clara Chick                          |                          Caleb Lim                           |
