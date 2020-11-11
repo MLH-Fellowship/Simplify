@@ -46,7 +46,7 @@ def query():
 
     MAX_SUMMARY=5000, # , default 5000, “num of chars of the summary”
 
-    MAX_SUMMARY_SENT=1, #, default 5, “num of sentences in summary”
+    MAX_SUMMARY_SENT=5, #, default 5, “num of sentences in summary”
 
     MAX_FILE_MEMO=20000, # , default 20000, “python setup.py sdist bdist_wininst upload”
 
