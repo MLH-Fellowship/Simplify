@@ -14,10 +14,5 @@
   "icons": {
     "128": "highlighter.png"
   },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"]
-    }
-  ],
   "content_security_policy": "script-src 'self' 'sha256-PIyb3PnRPKdQ/zZ3eNZVMh2iKFwxlu1BZA4FGs7FPpw='"
 }
