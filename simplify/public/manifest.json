@@ -7,12 +7,23 @@
     "default_popup": "index.html",
     "default_icon": "highlighter.png"
   },
-  "permissions": ["tabs"],
+  "permissions": [
+    "tabs"
+  ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
   "content_scripts": [
-    { "matches": ["<all_urls>"], "js": ["content_script.js"] }
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
   ],
   "content_security_policy": "script-src 'self' 'sha256-PIyb3PnRPKdQ/zZ3eNZVMh2iKFwxlu1BZA4FGs7FPpw='"
 }
