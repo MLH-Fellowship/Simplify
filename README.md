@@ -146,6 +146,8 @@ Example
 
 Devpost Submission: https://devpost.com/software/simplify-cvn8mg
 
+Text_Summarizer_Models.ipynb: This Jupyter notebook contains the BART text-summarization model, which the team is currently investigating. We plan on implementing either this particular model or something similar to handle text-summarization over newspaper3k.
+
 
 ## Made with ❤️ by Pod 1.1.6 - the Git Geese:
 |                       Cirill Dalangin                        |                         Clara Chick                          |                          Caleb Lim                           |
