@@ -8,9 +8,6 @@
     "default_icon": "highlighter.png"
   },
   "permissions": ["tabs"],
-  "background": {
-    "scripts": ["background.js"]
-  },
   "icons": {
     "128": "highlighter.png"
   },
