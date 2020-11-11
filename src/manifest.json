@@ -1,0 +1,18 @@
+{
+  "name": "Simplify",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "A chrome extension that summarizes articles.",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "highlighter.png"
+  },
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "highlighter.png"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-PIyb3PnRPKdQ/zZ3eNZVMh2iKFwxlu1BZA4FGs7FPpw='"
+}
