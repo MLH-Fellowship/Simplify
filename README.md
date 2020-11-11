@@ -16,6 +16,10 @@
 ## Screenshots
 
 <p align="center">
+     <img  src="./readme_imgs/logo.jpg" alt="demo">
+</p>
+
+<p align="center">
      <img  src="./readme_imgs/usage_summary.jpg" alt="demo">
 </p>
 
