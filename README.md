@@ -38,7 +38,7 @@
 
 The Developers couldn't get this on the Chrome Extension Store, so here are the steps to add it to yourself!
 
-1. clone this repo. on your local machine
+1. clone this repo. on your local machine (git clone https://github.com/MLH-Fellowship/Simplify.git)
 2. type `chrome://extensions` into Google Chrome and on the top right, turn on developer mode
 
 <p align="center">
@@ -76,6 +76,8 @@ The Developers couldn't get this on the Chrome Extension Store, so here are the 
 
 ## API Reference
 
+### Usage
+
 URL: https://summary-api-zzranger.herokuapp.com/
 
 ##### Endpoint
@@ -112,7 +114,11 @@ curl -I -X GET "https://summary-api-zzranger.herokuapp.com/query?article=https:/
 }
 ```
 
+### Installation
 
+Follow these steps if you want to run the API locally
+
+1. 
 
 ##### Response Definitions
 
@@ -120,9 +126,12 @@ curl -I -X GET "https://summary-api-zzranger.herokuapp.com/query?article=https:/
 
 > Summary of the article located at `articleUrl`
 
+
 ## Other
 
+
 Devpost Submission: https://devpost.com/software/simplify-cvn8mg
+
 
 ## Made with ❤️ by Pod 1.1.6 - the Git Geese:
 |                       Cirill Dalangin                        |                         Clara Chick                          |                          Caleb Lim                           |
