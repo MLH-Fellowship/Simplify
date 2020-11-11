@@ -1,0 +1,32 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: #333652;
+    font-family: "Fredoka One";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+}
+
+h1 {
+    color: #FAD02C;
+    font-size: 5em;
+    margin: .3em;
+}
+
+h4 {
+    color: #90ADC6;
+    font-size: 2em;
+    margin: .2em;
+}
+
+p {
+    color: #E9EAEC;
+    font-size: 1.2em;
+    font-family: "Montserrat";
+    text-align: justify;
+}
