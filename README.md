@@ -15,11 +15,13 @@
 
 ## Screenshots
 
-Include logo/demo screenshot etc
+<p align="center">
+     <img  src="./readme_imgs/usage_summary.jpg" alt="demo">
+</p>
 
 
 
-## Tech/framework used
+## Technologies Used
 
 - [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/)
@@ -63,10 +65,6 @@ The Developers couldn't get this on the Chrome Extension Store, so here are the 
 </p>
 
 3. Read the summary
-
-<p align="center">
-     <img  src="./readme_imgs/usage_summary.jpg" alt="demo">
-</p>
 
 
 ## API Reference
