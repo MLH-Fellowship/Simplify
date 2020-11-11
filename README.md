@@ -19,7 +19,7 @@ Include logo/demo screenshot etc
 
 
 
-## Tech/framework used
+## Technologies Used
 
 - [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/)
