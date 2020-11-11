@@ -6,14 +6,21 @@ import json
 from flask import jsonify
 from flask_cors import CORS
 
+# This is needed for nltk to work (used to summarize article)
 download('punkt')
 
 app= Flask(__name__) 
+
+# This enables CORS (allows API to be called from another server)
+# Not recommended if info needs to be secure
 CORS(app)
+
+# This code runs whenever a user naviates to root of the site
 @app.route('/')
 def index():
-    return "<h1>Welcome to CodingX. Add query?=article={INSERT ARTICLE URL HERE} to get article summary</h1>" 
+    return "<h1>Welcome to the text summary API. Add query?article={INSERT ARTICLE URL HERE} to get article summary</h1>" 
 
+# The following code is executed whenever the route begins w/ "/query"
 @app.route("/query")
 def query():
 
@@ -69,12 +76,12 @@ def query():
     # Summarize Article
     article.nlp()
 
+    # Create dictionary 
     test = {
         "summary": "%s" %article.summary
     }
-    bob = jsonify(test)
-    print(test)
-    print(type(bob))
+
+    # Convert dict to JSON & return
     return jsonify(test)
 
 

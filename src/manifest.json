@@ -11,5 +11,5 @@
   "icons": {
     "128": "highlighter.png"
   },
-  "content_security_policy": "script-src 'self' 'sha256-PIyb3PnRPKdQ/zZ3eNZVMh2iKFwxlu1BZA4FGs7FPpw='"
+  "content_security_policy": "script-src 'self' 'sha256-PIyb3PnRPKdQ/zZ3eNZVMh2iKFwxlu1BZA4FGs7FPpw='; object-src 'self'"
 }
