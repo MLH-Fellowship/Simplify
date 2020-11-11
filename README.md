@@ -134,7 +134,7 @@ Follow these steps if you want to run the API locally
 3. Install the necessary libraries (pip install -r requirements.txt)
 4. Run the flask server (python wsgi.py)
 
-The API will now run on localhost:9874. Use the parameters above to get article summaries.
+The API will now run on localhost:9874. Follow the API reference above to get article summaries (replace domain name w/ localhost).
 
 Example
 
