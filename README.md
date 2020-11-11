@@ -2,10 +2,9 @@
 
 <p align="center">
      Simplify is a Chrome Extension that summarizes any article you're reading in just one click! 
+     <br/>
+     The Chrome Extension calls on an API that was made and deployed on Herkou to get the summary of the article.
 </p>
-
-We made and deployed the API to summarize the article on Heroku.
-
 
 
 ## Motivation
@@ -25,6 +24,7 @@ Include logo/demo screenshot etc
 - [Newspaper3k](https://newspaper.readthedocs.io/en/latest/)
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 - [Herkou](https://www.heroku.com//)
+- Vanilla Javascript, HTML, and CSS
 
 
 
@@ -35,31 +35,38 @@ The Developers couldn't get this on the Chrome Extension Store, so here are the 
 1. clone this repo. on your local machine
 2. type `chrome://extensions` into Google Chrome and on the top right, turn on developer mode
 
-![toggle](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/installation_toggle.PNG)
+<p align="center">
+     <img  src="./readme_imgs/installation_toggle.PNG" alt="demo">
+</p>
 
 3. on the top left, press `Load unpacked`
 
-![](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/installation_load.PNG)
+<p align="center">
+     <img  src="./readme_imgs/installation_load.PNG" alt="demo">
+</p>
 
 4. in the directory where you saved this repo. and select the `src` folder
 
 5. you can now use our extension!
 
-![](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/installation_done.PNG)
-
-
+<p align="center">
+     <img  src="./readme_imgs/installation_done.PNG" alt="demo">
+</p>
 
 ## How to Use?
 
 1. Open an article on your browser
 2. Click the Simplify Extension
 
-![](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/usage_exten.png)
+<p align="center">
+     <img  src="./readme_imgs/usage_exten.png" alt="demo">
+</p>
 
 3. Read the summary
 
-![](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/usage_summary.jpg)
-
+<p align="center">
+     <img  src="./readme_imgs/usage_summary.jpg" alt="demo">
+</p>
 
 
 ## API Reference
