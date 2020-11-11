@@ -114,6 +114,13 @@ curl -I -X GET "https://summary-api-zzranger.herokuapp.com/query?article=https:/
 }
 ```
 
+##### Response Definitions
+
+`summary` 
+
+> Summary of the article located at `articleUrl`
+
+
 ### Installation
 
 Follow these steps if you want to run the API locally
@@ -128,12 +135,6 @@ The API will now run on localhost:9874. Use the parameters above to get article 
 Example
 
 ``` http://localhost:9874/query?article=https://www.cnn.com/politics/live-news/election-results-and-news-11-09-20/index.html ```
-
-##### Response Definitions
-
-`summary` 
-
-> Summary of the article located at `articleUrl`
 
 
 ## Other
