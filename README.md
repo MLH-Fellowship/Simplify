@@ -118,7 +118,16 @@ curl -I -X GET "https://summary-api-zzranger.herokuapp.com/query?article=https:/
 
 Follow these steps if you want to run the API locally
 
-1. 
+1. Open the root directory (should be the Simplify folder)
+2. Navigate to the heroku folder (cd heroku)
+3. Install the necessary libraries (pip install -r requirements.txt)
+4. Run the flask server (python wsgi.py)
+
+The API will now run on localhost:9874. Use the parameters above to get article summaries.
+
+Example
+
+``` http://localhost:9874/query?article=https://www.cnn.com/politics/live-news/election-results-and-news-11-09-20/index.html ```
 
 ##### Response Definitions
 
