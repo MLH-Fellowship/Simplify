@@ -16,7 +16,7 @@ We made and deployed the API to summarize the article on Heroku.
 
 ## Screenshots
 
-[Include logo/demo screenshot etc]
+Include logo/demo screenshot etc
 
 
 
@@ -35,17 +35,17 @@ The Developers couldn't get this on the Chrome Extension Store, so here are the 
 1. clone this repo. on your local machine
 2. type `chrome://extensions` into Google Chrome and on the top right, turn on developer mode
 
-![toggle](C:\Users\Clara\Desktop\MLH\Simplify\readme_imgs\installation_toggle.PNG)
+![toggle](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/installation_toggle.PNG)
 
 3. on the top left, press `Load unpacked`
 
-![](C:\Users\Clara\Desktop\MLH\Simplify\readme_imgs\installation_load.PNG)
+![](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/installation_load.PNG)
 
 4. in the directory where you saved this repo. and select the `src` folder
 
 5. you can now use our extension!
 
-![](C:\Users\Clara\Desktop\MLH\Simplify\readme_imgs\installation_done.PNG)
+![](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/installation_done.PNG)
 
 
 
@@ -54,11 +54,11 @@ The Developers couldn't get this on the Chrome Extension Store, so here are the 
 1. Open an article on your browser
 2. Click the Simplify Extension
 
-![](C:\Users\Clara\Desktop\MLH\Simplify\readme_imgs\usage_exten.png)
+![](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/usage_exten.png)
 
 3. Read the summary
 
-![](C:\Users\Clara\Desktop\MLH\Simplify\readme_imgs\usage_summary.jpg)
+![](https://github.com/MLH-Fellowship/Simplify/blob/main/readme_imgs/usage_summary.jpg)
 
 
 
