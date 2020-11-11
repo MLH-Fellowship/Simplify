@@ -53,6 +53,10 @@ The Developers couldn't get this on the Chrome Extension Store, so here are the 
 
 4. in the directory where you saved this repo. and select the `src` folder
 
+<p align="center">
+     <img  src="./readme_imgs/installation_toggle.PNG" alt="demo">
+</p>
+
 5. you can now use our extension!
 
 <p align="center">
