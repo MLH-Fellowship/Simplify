@@ -15,18 +15,18 @@ app= Flask(__name__)
 # Not recommended if info needs to be secure
 CORS(app)
 
-# This code runs whenever a user naviates to root of the site
+
 @app.route('/')
 def index():
     return "<h1>Welcome to the text summary API. Add query?article={INSERT ARTICLE URL HERE} to get article summary</h1>" 
 
-# The following code is executed whenever the route begins w/ "/query"
 @app.route("/query")
 def query():
 
+    # Gets article URL
     url = request.args.get('article')
-    # print("HI", url)
-
+    
+    # Create article object
     article = Article(url, 
     keep_article_html= False, #, “set to True if you want to preserve html of body text”
 
