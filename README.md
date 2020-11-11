@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-     <img  src="./readme_imgs/usage_summary.jpg" alt="demo">
+     <img  src="./readme_imgs/demogif.gif" alt="demo">
 </p>
 
 
@@ -70,6 +70,9 @@ The Developers couldn't get this on the Chrome Extension Store, so here are the 
 
 3. Read the summary
 
+<p align="center">
+     <img  src="./readme_imgs/usage_summary.jpg" alt="demo">
+</p>
 
 ## API Reference
 
